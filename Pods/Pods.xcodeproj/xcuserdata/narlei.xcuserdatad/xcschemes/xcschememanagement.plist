@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EGOCache 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>EGOCache.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>EGOImageLoading 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>EGOImageLoading.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>EGOPhotoViewer 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>EGOPhotoViewer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>FMDB.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-StoreViewer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-StoreViewerTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-StoreViewerUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>TPKeyboardAvoiding 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Unirest 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Unirest 4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Unirest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1D889A24C9C8581C0866B229A7E9F932</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>2D748A1E7B7DFC967C340F9954065967</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>30D0E0A9D8ED89828DA3FC1B284E963E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>85734221161D7A12ECABC6F90919563E</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>8642CC820CE8C5B88C113D7F47AF4BC3</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>959BAB8879E2483BC6449AF6CC43A026</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>AF700FE9E9209497A9C369CF30114DB2</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>AF9ACCA9142535A9C022989B1760F38C</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>B7BBBA374B5F67D67B0C64C398016205</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>BD3B3AD0E5C722635FEF5221F0231B23</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>BF4E9AC1BA825AB51E67619A677449BC</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>C1234385417B59E5C091967482A42AA2</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>C5EACA3043847E0B70CA8784062D3A4F</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>CD5EBE21111FE5963CF1224A0EEFD7DC</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>D647E63EBB09C438E38C7F58718B5C08</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>D78796A317178E00ECF62E34F632490B</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>DC9CA53A86EA26D916A2721F70DDFF44</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>F2F124214F670293D24893E683178235</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>F40393F9FCBD0558F0946DAE4F0F5E02</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+	</dict>
+</dict>
+</plist>

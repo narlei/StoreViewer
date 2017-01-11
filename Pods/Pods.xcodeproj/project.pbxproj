@@ -1,0 +1,1896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05714CF9D48A55FCE1EAC6F1229ACBB0 /* EGOPhotoGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49143F8764FE5C13D4F21BC754D94D8B /* EGOPhotoGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6CF3C65CBC6941D7001F49CEDF76F4 /* UNISimpleRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D24A4EFEED3E985DE51D327CF97591 /* UNISimpleRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B2B9DEC3FB5798B0C55F642CED61BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		176BD158ED301BD2B59D6BC8E2CE8FDE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D13944A28CEFDBB139A657E22824546C /* Reachability.m */; };
+		1898EE1B59145A57420676B61C8B91F3 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 13B01F8D50372EB66B6873E14BC9B852 /* Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E0656804DBF3C4CB1A8DD8524FA2E0 /* EGOPhotoCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5829BD9868D27C79360B67B6956E78C4 /* EGOPhotoCaptionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BFDFCB09F13BA7B53FCDDDC164C6FD5 /* UNIBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A40FBD59A5E749F222D92ED5AF28D4FF /* UNIBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D674B0E33BB78B304793A26BC2E7F60 /* Pods-StoreViewerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50051EA048E6AFD33F1CCD173CE1D937 /* Pods-StoreViewerUITests-dummy.m */; };
+		1E926353DFCF951078498D40B0813479 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		1EF69095214FE8C9248EAA38A0B08886 /* EGOImageLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 347897DA9250061D6E2DB37D0D489544 /* EGOImageLoading-dummy.m */; };
+		1F254111FB6030295FDBF71CE55519A2 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF70867295A78726897F821458AF3D8 /* Base64.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2012864C735C3DD88ECE425F6C981F6B /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6398F6F3A5469B94A2C5FF14FAA19FB2 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E86DCAFAFD80B0E1A645C011C48952 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43653248F8BBE1A3C8B9371FCCB46E1E /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		275E3698B790A72C16C4BD6FE1BE0DCA /* UNIHTTPRequestWithBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A33A73A2FB977AF3ABA159B522B5EB8 /* UNIHTTPRequestWithBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CAC32463995BB443CA2BC7A1F0A3B2 /* UNIHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 879FD4834E544A8F0CF0C5B7FF9D3092 /* UNIHTTPResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2938E4F97CA5991620EE873A49FE021D /* UNIUrlConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1B1BA64A5370CBEC8143BE45DC746B /* UNIUrlConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A5D678A4740845FFB5BDA95DF11FDB /* EGOImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8355658CC4D51DCFA5B59D6AB47452DA /* EGOImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7F7EB9B185A2225B300667C2C260F6 /* EGOImageLoadConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DABCA62AB5F428A270AF7D806346CAB /* EGOImageLoadConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD18CC6D025C1928F4ECE0EC8A00DCC /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D450AB6304B3CBD08F57041F4CBC9F /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CD7E49D46333F00AD9139C2993DE5DE /* UNIJsonNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 31430171EF743E3007B87DAFADDC57E2 /* UNIJsonNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308268E5CB3A166AFEDB84DBBC78F253 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB703B6DD053A25F1C4B66FF2EC17DB9 /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32E4009D90AEB47C291273710D999678 /* UNIHTTPJsonResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB820250C8CFF05D7CED75111248556 /* UNIHTTPJsonResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33084AD7FD963A0E0E43CF1C5AB60234 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B212B2830CC0E20DE04CB80612BC47 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33148D27F6FEE6421F7D8E8A6AD3DBD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */; };
+		355F8EEE5384D81577B48C657D58ED09 /* UNIJsonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7008CFE512236D9FB415AC36F218DD7 /* UNIJsonNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36BD5A949C9BFE319B788DCE2E4EF9DB /* UNIHTTPJsonResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 31DE0AF9D78076B9A45567CC7EBA12DA /* UNIHTTPJsonResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3837FFA26EF4087DA45166F092EE3DD3 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B63CE8E0D868F26C15D2281449BB2F /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		387B782894F22D3F01939E34C157F3F8 /* UNIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E3481842777A7C9D1AB295A2C92402 /* UNIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		398A5C11EFB816892FD5E18AD24F03D4 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BD71189BA60FD5A9BE3141611D7D72 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBE5237ACD94B3BF2C54ABEE5095F4E /* EGOPhotoImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB1DFF51067B0DD313EF88429785269 /* EGOPhotoImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4071BA24182F62615D67465110121743 /* EGOPhotoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AB19F9E97BFD63DF8717D5E157AD16 /* EGOPhotoSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		422511B62248A4F66640B534F1B01D2E /* EGOPhotoViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9123FC75186DD8DC648216C8FCBD5D /* EGOPhotoViewer-dummy.m */; };
+		46FC5D478242D0EEF5D992318696301C /* UNIHTTPClientHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5979ECCA609F3CE16C12EF083576DC52 /* UNIHTTPClientHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A0B4474A48B9A2C8DAB2F255A89657F /* EGOQuickPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3879353009407DD01F2858D8E48AC242 /* EGOQuickPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3B2EABA01FE0065CA6693CEE33CA92 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DD889A30B206CFBD74DCBB80354C8E /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4DB541C1C41B1C597EC36CDAB5243D1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 37360C984455E13C493FC17D2D546571 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6199817CB29DADBC9AB1D4C44E52F5BA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4689EE1F00E4ECCC1622D19C98273 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69740F3E2329A3AE930CD87BDE3FDFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		6AC860393B0EC0422E829B6CFD4A8362 /* Pods-StoreViewerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20E93613752D9D0F8E73C581E257C24 /* Pods-StoreViewerTests-dummy.m */; };
+		6CCBD067C70B0C243D5D0B682DFD43D6 /* UNIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C069B127BF2B192572377B22991B51 /* UNIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D3C40DD1A79BC0A7458F35540325CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		751B9E7467738C9C8D4C5EA5ADDE8F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		76807DA28924E0B2643B51C95DEF0B68 /* EGOQuickPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF31BC91CEE6DE131A1CE4CAA9B8263 /* EGOQuickPhoto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7D100453015A79CBC6003F9A39565456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		7E4A48B07565EC1751D11FBF17C1611B /* EGOPhotoCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D519F9AC3CC44F617E2736C4D2FC93B /* EGOPhotoCaptionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8021697A1557D425AC130472DA1317CC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3640AD6678BF088B161EBB2174A359A6 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8156235605C1C96E04D416BAAC8E8A1E /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95652245BA7FBAFCAC1A9A50916C8F5F /* TPKeyboardAvoiding-dummy.m */; };
+		82D506BECE75302A5D915946CC15CD44 /* EGOQuickPhotoSource.h in Headers */ = {isa = PBXBuildFile; fileRef = AEED11E08E34D1268A26B8A939B1EB34 /* EGOQuickPhotoSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		889D48A9B81ADF617C1D4E4E9473E3A9 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = C91BC06CCEBA42B591F9D091159867B4 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B047EA1C4C5199ED967BD0B9AEEFD63 /* Unirest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BCFCA98CCC18B8908CCE428A26355B /* Unirest-dummy.m */; };
+		8B04FFA2220007B49A3B8E2BBBBC680F /* EGOCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 081F63AA5FD198D837E292CDD85B2753 /* EGOCache-dummy.m */; };
+		8C02340B49CDE9FE15123C3EBE3E1186 /* Pods-StoreViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD851A1535912AE84384089743CDEB /* Pods-StoreViewer-dummy.m */; };
+		8C8FE823FB0DA31FA72637BBBA637026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		8CC8F1F0A0AB6B3E546ABA261949C4BF /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF521EE0C8A73C8691829AD92532305F /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		91A8DE4092E2BE4094AF6D3F207E5EE8 /* EGOPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD03A26BCD9CE124E09C9F09D9EAE7 /* EGOPhotoImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		933DB33C06BE1C62581761DFF15B9873 /* UNIUrlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F83A29397BAFB93542601ED8DDADA4C /* UNIUrlConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98ABF277A45F1AB72A8D02D53FFE67BF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B98D74F030A0512376CBCCB6B319AAEB /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99714143FA44A34F87D1F2AA6D254177 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 23500864C2F41033D6C43713F3974AB0 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C7614C1B43B851FBAAAA5848C563BB9 /* UNIHTTPBinaryResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C2E5E14861F0399B44F020B7755841 /* UNIHTTPBinaryResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC43A5055A16946C2CEACD3BA23E8DA /* UNIHTTPStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F257F3E1129B431038BD2187142DF16 /* UNIHTTPStringResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A7FEF861BCAF3347604B49E9834869E0 /* EGOPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B6FAA24D86CA3984DFDB0D05E9822 /* EGOPhotoScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B0677D40BC45DD8C5D6116D7CD3F0164 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 115D96D8FF7842E404AA17FDBF7D0DA5 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B15903525393EDC38C55D4E37D73A14D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB069B98B1E69388809204C9DCF5802 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B514AAA79206A167CCDD8996DAE03640 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = E79AF518CC1B6647CE3FD87DA8BE48B7 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59D749355C2420C11ED27EC7B6B8701 /* UNIHTTPBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD842B12EAA1973AC376B689314A24 /* UNIHTTPBinaryResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF4C490A321DF18CC2A817489BCE0DDE /* UNIHTTPRequestWithBody.m in Sources */ = {isa = PBXBuildFile; fileRef = A91155E007E3DAFC32CA484CD6E5B85B /* UNIHTTPRequestWithBody.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFCDE3382466F7B3FBDC8A9276050AA9 /* EGOPhotoScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD36E93E0631E8E7976B52D3CD7030BD /* EGOPhotoScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C50BB88B2091D0E38E3C26F56D1142 /* UNIHTTPClientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1346B3F22C052C6AFCDC40A8C384D0 /* UNIHTTPClientHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C35AF65136C7E1BC1AA7729C0AC0F46E /* EGOPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6E8422EE526EA2DE0824D101FCFD9 /* EGOPhotoViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C40CFE1274D588CA1A9DF9394BF76EAE /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD351D788B66521B2D7E13789A28166D /* FMDB-dummy.m */; };
+		C4611156B8A3B15FB1473B3F63184674 /* UNIRest.m in Sources */ = {isa = PBXBuildFile; fileRef = 570F1BBAB47C06CF5D0C963FF6B00F47 /* UNIRest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C88BD6637218C7C0940CC6CED5CF922F /* EGOImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1FCB864EB20335DF1430B17C11DDA9 /* EGOImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6D759A1852D9CAF606E16ADFA57C91 /* UNIHTTPStringResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 04154111CF8B1D3CDE1642B8C1CD53AE /* UNIHTTPStringResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE63F10B4B082985DCB54A2C5ED2B123 /* UNIHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3605ADB09B6B0900213C0D0FE363C256 /* UNIHTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE7592FDF6F78C4B25B0C068F9EE89C /* EGOImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9E998AF6873220220705585734C8A8 /* EGOImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6B78E3EBC9A6DB0530EBE7F2F40F261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		D76585C98D570ADDFAA39EA213CD41C9 /* EGOCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D134EEB0B56B8DA5B7C2EDBC28416C3 /* EGOCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D852415DFD46E85C293E0DDE01868EA2 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB9D41CBE1B9BC8E1D98F46D154F58A /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5E1FF20792BB0CB45560F0FEA085C7 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9B9F395C5F8DC7E0CAC6090B6AD69E /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3F87D6C04696FB74039A47F63317E6 /* EGOImageLoadConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BB4FAC6D88CB3BF47CEBBEB3556BCF /* EGOImageLoadConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DED2D0573D877799B5EF63D955FCFD81 /* UNISimpleRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C17C1F7FC730BE470C64657E9AC8CE2 /* UNISimpleRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1E2D2EC9930932DE65017FFF4D25BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		E8070F4A0E987443BC8E90E751DE85E5 /* EGOImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 83228513111C02F3DDFE4AAF1C9D2A73 /* EGOImageLoader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EAE053D18E78F70244EE6416578532D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		F00CCFAB93A4F18419CD91217B1D5F66 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 415C201835F6D100C999CFA391A5F59A /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1842CF30B2245614EBAFE77CE1F4923 /* UNIBodyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5116D23C323D965C350BDE661A236D0E /* UNIBodyRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F69F37055578F1E8AA62B963867D2E93 /* EGOPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A631DECDBF8EB65BB421DBCA58D01D8A /* EGOPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FABA23C09B1A9F3E569D717ADB2597A7 /* EGOQuickPhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7306A917D0AB71CEC14FD75A42AEDF86 /* EGOQuickPhotoSource.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FB3EFE4CCA2E9AD8215BD39551023455 /* UNIRest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE17084060545F2C3CC31D7C7C9A67E /* UNIRest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBA69E1DC8F4261AFFBA217C51E839EA /* UNIBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1245A9C12B7B605858B29DB971D25412 /* UNIBaseRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FE06A99D8FC7215A164B17E98429003C /* EGOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AE3A3C41935CBEE90711287F22B82 /* EGOImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE5FF61564FDA821BB5EEB5BFE8EBC7B /* UNIBodyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEBA1FBE82EFEED6C1D9A5A869D0D0A /* UNIBodyRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA7B58599E5D6122291FDE26B2FCDF5 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 06071C487D886B074DE03BC7F5F27D1D /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFF9AAD0361C310D594674A2CCD15CC4 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D8B025203456EDBDF85FFD4BA904EB /* Reachability-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E3D0482C62B30D6CDF11F778FC25DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D748A1E7B7DFC967C340F9954065967;
+			remoteInfo = EGOCache;
+		};
+		066362F92A175064FE0B9F8644716E42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8642CC820CE8C5B88C113D7F47AF4BC3;
+			remoteInfo = FMDB;
+		};
+		13CAE154EDFD522645679058BFAB96DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9CA53A86EA26D916A2721F70DDFF44;
+			remoteInfo = Reachability;
+		};
+		30E40C16D818EA604FC243897014B944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD3B3AD0E5C722635FEF5221F0231B23;
+			remoteInfo = EGOPhotoViewer;
+		};
+		3E4BFFBD80DBE3A3494FDE60A168A1DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D78796A317178E00ECF62E34F632490B;
+			remoteInfo = Unirest;
+		};
+		66E762DCC9A4D0DE21527580E09220E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BBBA374B5F67D67B0C64C398016205;
+			remoteInfo = EGOImageLoading;
+		};
+		95E1037D386B96CEB0B7474BF2CB5033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2F124214F670293D24893E683178235;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		9789F4B8BD87D1834A8C6162A5FA0A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BBBA374B5F67D67B0C64C398016205;
+			remoteInfo = EGOImageLoading;
+		};
+		9810A58CE9A723FA26F1B465A7F7AD05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D748A1E7B7DFC967C340F9954065967;
+			remoteInfo = EGOCache;
+		};
+		C7650C1D32E6BA98004104B9049D62FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D748A1E7B7DFC967C340F9954065967;
+			remoteInfo = EGOCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04154111CF8B1D3CDE1642B8C1CD53AE /* UNIHTTPStringResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPStringResponse.h; path = Unirest/HttpResponse/UNIHTTPStringResponse.h; sourceTree = "<group>"; };
+		05D8B025203456EDBDF85FFD4BA904EB /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		06071C487D886B074DE03BC7F5F27D1D /* EGOImageButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOImageButton.m; path = EGOImageButton/EGOImageButton.m; sourceTree = "<group>"; };
+		07C6474AD4A8211D02C078A4384450B3 /* EGOPhotoViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGOPhotoViewer-prefix.pch"; sourceTree = "<group>"; };
+		081F63AA5FD198D837E292CDD85B2753 /* EGOCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGOCache-dummy.m"; sourceTree = "<group>"; };
+		092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0A97BDD130DD9A1FCF0881B631ED85BA /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		0B712C443523E39B44E357603F61F0E1 /* Pods-StoreViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		0D05198E0D7D94DE07FAC4701ACED923 /* libEGOPhotoViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEGOPhotoViewer.a; path = libEGOPhotoViewer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D1B1BA64A5370CBEC8143BE45DC746B /* UNIUrlConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIUrlConnection.h; path = Unirest/UNIUrlConnection.h; sourceTree = "<group>"; };
+		0E9B9F395C5F8DC7E0CAC6090B6AD69E /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		115D96D8FF7842E404AA17FDBF7D0DA5 /* EGOCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
+		11C1C786B8B3CE477FA93E9F4F62A37E /* libPods-StoreViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-StoreViewer.a"; path = "libPods-StoreViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1245A9C12B7B605858B29DB971D25412 /* UNIBaseRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBaseRequest.m; path = Unirest/HttpRequest/UNIBaseRequest.m; sourceTree = "<group>"; };
+		1296D149C7D67518CD0B3AE1896388EC /* Pods-StoreViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewer.release.xcconfig"; sourceTree = "<group>"; };
+		13B01F8D50372EB66B6873E14BC9B852 /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = Unirest/Base64.h; sourceTree = "<group>"; };
+		1CD4689EE1F00E4ECCC1622D19C98273 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		1E1346B3F22C052C6AFCDC40A8C384D0 /* UNIHTTPClientHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPClientHelper.m; path = Unirest/UNIHTTPClientHelper.m; sourceTree = "<group>"; };
+		1EBFED81C06C9A86E60F65075C7CF6B6 /* Pods-StoreViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		23500864C2F41033D6C43713F3974AB0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		25B63CE8E0D868F26C15D2281449BB2F /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		2A33A73A2FB977AF3ABA159B522B5EB8 /* UNIHTTPRequestWithBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequestWithBody.h; path = Unirest/UNIHTTPRequestWithBody.h; sourceTree = "<group>"; };
+		2C16DD57CA57854B244395D2A5462A57 /* Pods-StoreViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D6F8F5AC37B1C4AC3B343CD9A325D2F /* egopv_photo_placeholder.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_photo_placeholder.png; path = EGOPhotoViewer/Resources/egopv_photo_placeholder.png; sourceTree = "<group>"; };
+		2EF70867295A78726897F821458AF3D8 /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = Unirest/Base64.m; sourceTree = "<group>"; };
+		2F3C560242803C222A2AFC2C29857D0B /* libEGOImageLoading.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEGOImageLoading.a; path = libEGOImageLoading.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31430171EF743E3007B87DAFADDC57E2 /* UNIJsonNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIJsonNode.h; path = Unirest/HttpResponse/UNIJsonNode.h; sourceTree = "<group>"; };
+		315ED3F983E9EF904A19DC9749EDE55D /* libUnirest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUnirest.a; path = libUnirest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DE0AF9D78076B9A45567CC7EBA12DA /* UNIHTTPJsonResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPJsonResponse.h; path = Unirest/HttpResponse/UNIHTTPJsonResponse.h; sourceTree = "<group>"; };
+		347897DA9250061D6E2DB37D0D489544 /* EGOImageLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGOImageLoading-dummy.m"; sourceTree = "<group>"; };
+		3605ADB09B6B0900213C0D0FE363C256 /* UNIHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPResponse.h; path = Unirest/HttpResponse/UNIHTTPResponse.h; sourceTree = "<group>"; };
+		3640AD6678BF088B161EBB2174A359A6 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		37360C984455E13C493FC17D2D546571 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3862DDDF6EF1FAA2813F6B810C6AFA09 /* EGOCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGOCache-prefix.pch"; sourceTree = "<group>"; };
+		3879353009407DD01F2858D8E48AC242 /* EGOQuickPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOQuickPhoto.h; path = EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.h; sourceTree = "<group>"; };
+		39B212B2830CC0E20DE04CB80612BC47 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3CB54C84D4D7C0F298DA76A2F22D25FE /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		3F83A29397BAFB93542601ED8DDADA4C /* UNIUrlConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIUrlConnection.m; path = Unirest/UNIUrlConnection.m; sourceTree = "<group>"; };
+		40B4DAA67843765AC0838F3579F80240 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		40C069B127BF2B192572377B22991B51 /* UNIHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPRequest.h; path = Unirest/UNIHTTPRequest.h; sourceTree = "<group>"; };
+		415C201835F6D100C999CFA391A5F59A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		41CD03A26BCD9CE124E09C9F09D9EAE7 /* EGOPhotoImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOPhotoImageView.m; path = EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.m; sourceTree = "<group>"; };
+		41D1B41C147BC844A97DAEF9C1DCA5A0 /* Pods-StoreViewer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewer-resources.sh"; sourceTree = "<group>"; };
+		41E48DC469B256769F0D625C53F6E777 /* EGOImageLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EGOImageLoading-prefix.pch"; sourceTree = "<group>"; };
+		43653248F8BBE1A3C8B9371FCCB46E1E /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49143F8764FE5C13D4F21BC754D94D8B /* EGOPhotoGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoGlobal.h; path = EGOPhotoViewer/EGOPhotoGlobal.h; sourceTree = "<group>"; };
+		49A3420FF7362D68E3D4CB3FAF68E5F4 /* egopv_right.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_right.png; path = EGOPhotoViewer/Resources/egopv_right.png; sourceTree = "<group>"; };
+		4A3FE0DE2D63E07082C0106D43D4A117 /* Pods-StoreViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoreViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B0BE9516DE4ECAB0B83A792EF20E101 /* egopv_error_placeholder.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_error_placeholder.png; path = EGOPhotoViewer/Resources/egopv_error_placeholder.png; sourceTree = "<group>"; };
+		4DC6E8422EE526EA2DE0824D101FCFD9 /* EGOPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOPhotoViewController.m; path = EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.m; sourceTree = "<group>"; };
+		4E6BCF54B14112E80461F9235D638BF8 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTPKeyboardAvoiding.a; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9E998AF6873220220705585734C8A8 /* EGOImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOImageView.h; path = EGOImageView/EGOImageView.h; sourceTree = "<group>"; };
+		50051EA048E6AFD33F1CCD173CE1D937 /* Pods-StoreViewerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoreViewerUITests-dummy.m"; sourceTree = "<group>"; };
+		504FF4169EAE899DEB5A605524E8DDB1 /* libPods-StoreViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-StoreViewerTests.a"; path = "libPods-StoreViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5116D23C323D965C350BDE661A236D0E /* UNIBodyRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIBodyRequest.m; path = Unirest/HttpRequest/UNIBodyRequest.m; sourceTree = "<group>"; };
+		54A01D3AAD6F8C0F86232356C623AC83 /* egopv_left.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_left.png; path = EGOPhotoViewer/Resources/egopv_left.png; sourceTree = "<group>"; };
+		56E250F43C31CE47DEA452AECAFEC119 /* egopv_fullscreen_button.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_fullscreen_button.png; path = EGOPhotoViewer/Resources/egopv_fullscreen_button.png; sourceTree = "<group>"; };
+		570F1BBAB47C06CF5D0C963FF6B00F47 /* UNIRest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIRest.m; path = Unirest/UNIRest.m; sourceTree = "<group>"; };
+		57C0090F382FD0BE417A999E30CEF78E /* egopv_minimize_fullscreen_button.png */ = {isa = PBXFileReference; includeInIndex = 1; name = egopv_minimize_fullscreen_button.png; path = EGOPhotoViewer/Resources/egopv_minimize_fullscreen_button.png; sourceTree = "<group>"; };
+		5829BD9868D27C79360B67B6956E78C4 /* EGOPhotoCaptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoCaptionView.h; path = EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.h; sourceTree = "<group>"; };
+		5979ECCA609F3CE16C12EF083576DC52 /* UNIHTTPClientHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPClientHelper.h; path = Unirest/UNIHTTPClientHelper.h; sourceTree = "<group>"; };
+		59984A156E693B720C62D9CF26255CCE /* libEGOCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEGOCache.a; path = libEGOCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A22959D6BE88E2ACD369C5DE7B31E93 /* Pods-StoreViewerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoreViewerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D134EEB0B56B8DA5B7C2EDBC28416C3 /* EGOCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
+		5D1FCB864EB20335DF1430B17C11DDA9 /* EGOImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOImageLoader.h; path = EGOImageLoader/EGOImageLoader.h; sourceTree = "<group>"; };
+		5D519F9AC3CC44F617E2736C4D2FC93B /* EGOPhotoCaptionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOPhotoCaptionView.m; path = EGOPhotoViewer/Views/EGOPhotoCaptionView/EGOPhotoCaptionView.m; sourceTree = "<group>"; };
+		5DABCA62AB5F428A270AF7D806346CAB /* EGOImageLoadConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOImageLoadConnection.h; path = EGOImageLoader/EGOImageLoadConnection.h; sourceTree = "<group>"; };
+		62C3F70311F20331C37275D47A608D55 /* egopv_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "egopv_left@2x.png"; path = "EGOPhotoViewer/Resources/egopv_left@2x.png"; sourceTree = "<group>"; };
+		6398F6F3A5469B94A2C5FF14FAA19FB2 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		64BD71189BA60FD5A9BE3141611D7D72 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		6D262B9FA390B7F8F6A157E3B78A4106 /* Unirest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Unirest-prefix.pch"; sourceTree = "<group>"; };
+		6DB069B98B1E69388809204C9DCF5802 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		6E3AE3A3C41935CBEE90711287F22B82 /* EGOImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOImageView.m; path = EGOImageView/EGOImageView.m; sourceTree = "<group>"; };
+		6F257F3E1129B431038BD2187142DF16 /* UNIHTTPStringResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPStringResponse.m; path = Unirest/HttpResponse/UNIHTTPStringResponse.m; sourceTree = "<group>"; };
+		7306A917D0AB71CEC14FD75A42AEDF86 /* EGOQuickPhotoSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOQuickPhotoSource.m; path = EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.m; sourceTree = "<group>"; };
+		74CA6553707DBADFF19364D5F14EC9B7 /* egopv_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "egopv_right@2x.png"; path = "EGOPhotoViewer/Resources/egopv_right@2x.png"; sourceTree = "<group>"; };
+		7684B8252A6C8F4EA003FC6D5D70CC89 /* Pods-StoreViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9123FC75186DD8DC648216C8FCBD5D /* EGOPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EGOPhotoViewer-dummy.m"; sourceTree = "<group>"; };
+		7C22F47805A62DC58FB8E75E453EC30D /* Pods-StoreViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoreViewer-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FFD851A1535912AE84384089743CDEB /* Pods-StoreViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoreViewer-dummy.m"; sourceTree = "<group>"; };
+		8042327E252EDBFCC2347D3960286ACA /* egopv_fullscreen_button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "egopv_fullscreen_button@2x.png"; path = "EGOPhotoViewer/Resources/egopv_fullscreen_button@2x.png"; sourceTree = "<group>"; };
+		81D450AB6304B3CBD08F57041F4CBC9F /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		83228513111C02F3DDFE4AAF1C9D2A73 /* EGOImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOImageLoader.m; path = EGOImageLoader/EGOImageLoader.m; sourceTree = "<group>"; };
+		8355658CC4D51DCFA5B59D6AB47452DA /* EGOImageButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOImageButton.h; path = EGOImageButton/EGOImageButton.h; sourceTree = "<group>"; };
+		879FD4834E544A8F0CF0C5B7FF9D3092 /* UNIHTTPResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPResponse.m; path = Unirest/HttpResponse/UNIHTTPResponse.m; sourceTree = "<group>"; };
+		8C17C1F7FC730BE470C64657E9AC8CE2 /* UNISimpleRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNISimpleRequest.m; path = Unirest/HttpRequest/UNISimpleRequest.m; sourceTree = "<group>"; };
+		90E877E784C9755CD63EDB34DA9BB11C /* Pods-StoreViewerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StoreViewerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9370D60BECECDFC147A733A89028412F /* Unirest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Unirest.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95652245BA7FBAFCAC1A9A50916C8F5F /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		9973F6BDDBDB3C3C2A98BA12DA434A0E /* Pods-StoreViewerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewerTests-frameworks.sh"; sourceTree = "<group>"; };
+		9FB9D41CBE1B9BC8E1D98F46D154F58A /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		A20E93613752D9D0F8E73C581E257C24 /* Pods-StoreViewerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StoreViewerTests-dummy.m"; sourceTree = "<group>"; };
+		A2781E878BD2D4DEA01856A7CB5C0BA3 /* Pods-StoreViewerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewerTests-resources.sh"; sourceTree = "<group>"; };
+		A36BE4E9C49F1088388125CB97E55839 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40FBD59A5E749F222D92ED5AF28D4FF /* UNIBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBaseRequest.h; path = Unirest/HttpRequest/UNIBaseRequest.h; sourceTree = "<group>"; };
+		A631DECDBF8EB65BB421DBCA58D01D8A /* EGOPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoViewController.h; path = EGOPhotoViewer/Controller/EGOPhotoViewController/EGOPhotoViewController.h; sourceTree = "<group>"; };
+		A91155E007E3DAFC32CA484CD6E5B85B /* UNIHTTPRequestWithBody.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequestWithBody.m; path = Unirest/UNIHTTPRequestWithBody.m; sourceTree = "<group>"; };
+		AAA2A4C3D16CCE2EA88F3BE2C255A3A3 /* egopv_error_placeholder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "egopv_error_placeholder@2x.png"; path = "EGOPhotoViewer/Resources/egopv_error_placeholder@2x.png"; sourceTree = "<group>"; };
+		AAD4BC7E944DBC0D7D03C02F2899845E /* libPods-StoreViewerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-StoreViewerUITests.a"; path = "libPods-StoreViewerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF31BC91CEE6DE131A1CE4CAA9B8263 /* EGOQuickPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOQuickPhoto.m; path = EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhoto.m; sourceTree = "<group>"; };
+		AD047ADE844F390561385CDAB8C62380 /* Pods-StoreViewerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AD36E93E0631E8E7976B52D3CD7030BD /* EGOPhotoScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoScrollView.h; path = EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.h; sourceTree = "<group>"; };
+		AEEBA1FBE82EFEED6C1D9A5A869D0D0A /* UNIBodyRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIBodyRequest.h; path = Unirest/HttpRequest/UNIBodyRequest.h; sourceTree = "<group>"; };
+		AEED11E08E34D1268A26B8A939B1EB34 /* EGOQuickPhotoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOQuickPhotoSource.h; path = EGOPhotoViewer/Model/EGOQuickPhoto/EGOQuickPhotoSource.h; sourceTree = "<group>"; };
+		AFCD842B12EAA1973AC376B689314A24 /* UNIHTTPBinaryResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPBinaryResponse.m; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.m; sourceTree = "<group>"; };
+		B0D24A4EFEED3E985DE51D327CF97591 /* UNISimpleRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNISimpleRequest.h; path = Unirest/HttpRequest/UNISimpleRequest.h; sourceTree = "<group>"; };
+		B1923448348CB8F011EB7C0AF4915F39 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		B5AB19F9E97BFD63DF8717D5E157AD16 /* EGOPhotoSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoSource.h; path = EGOPhotoViewer/Model/EGOPhotoSource/EGOPhotoSource.h; sourceTree = "<group>"; };
+		B98D74F030A0512376CBCCB6B319AAEB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BAB1DFF51067B0DD313EF88429785269 /* EGOPhotoImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EGOPhotoImageView.h; path = EGOPhotoViewer/Views/EGOPhotoImageView/EGOPhotoImageView.h; sourceTree = "<group>"; };
+		BD351D788B66521B2D7E13789A28166D /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		BEEC7F75EBCF71AFB8690E7C7DF5345D /* Pods-StoreViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewer-frameworks.sh"; sourceTree = "<group>"; };
+		C3526CD23BD62441DDE359F0262237AF /* Pods-StoreViewerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StoreViewerUITests-resources.sh"; sourceTree = "<group>"; };
+		C581DEDB8F03871654FD4290854DDC32 /* EGOImageLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGOImageLoading.xcconfig; sourceTree = "<group>"; };
+		C6AE8B56C9610F8B14B44AEDC0CEBB58 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		C8BB4FAC6D88CB3BF47CEBBEB3556BCF /* EGOImageLoadConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOImageLoadConnection.m; path = EGOImageLoader/EGOImageLoadConnection.m; sourceTree = "<group>"; };
+		C91BC06CCEBA42B591F9D091159867B4 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		C9E3481842777A7C9D1AB295A2C92402 /* UNIHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPRequest.m; path = Unirest/UNIHTTPRequest.m; sourceTree = "<group>"; };
+		CB703B6DD053A25F1C4B66FF2EC17DB9 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CBB2086F82F876B726803FCDF6AE8397 /* EGOCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGOCache.xcconfig; sourceTree = "<group>"; };
+		CF4EF7CA33F630F0A8C94C4652B30396 /* Pods-StoreViewerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoreViewerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF521EE0C8A73C8691829AD92532305F /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		CFA9F99DB58BB1C93EC32CCC384E8CA8 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		D117B61F57E38D64CFB9261EDA4C6765 /* egopv_photo_placeholder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "egopv_photo_placeholder@2x.png"; path = "EGOPhotoViewer/Resources/egopv_photo_placeholder@2x.png"; sourceTree = "<group>"; };
+		D13944A28CEFDBB139A657E22824546C /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D4C2E5E14861F0399B44F020B7755841 /* UNIHTTPBinaryResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIHTTPBinaryResponse.h; path = Unirest/HttpResponse/UNIHTTPBinaryResponse.h; sourceTree = "<group>"; };
+		D9535AF9D68ECB90FB27E9BDDCF1AF1B /* Pods-StoreViewerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StoreViewerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2DD889A30B206CFBD74DCBB80354C8E /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		E79AF518CC1B6647CE3FD87DA8BE48B7 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		EBE17084060545F2C3CC31D7C7C9A67E /* UNIRest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UNIRest.h; path = Unirest/UNIRest.h; sourceTree = "<group>"; };
+		F319B8CF51A7CB4E5951B27D05B6458C /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B6FAA24D86CA3984DFDB0D05E9822 /* EGOPhotoScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EGOPhotoScrollView.m; path = EGOPhotoViewer/Views/EGOPhotoScrollView/EGOPhotoScrollView.m; sourceTree = "<group>"; };
+		F5B629055FC714B1F67AF367990A511A /* Pods-StoreViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StoreViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5BCFCA98CCC18B8908CCE428A26355B /* Unirest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Unirest-dummy.m"; sourceTree = "<group>"; };
+		F7008CFE512236D9FB415AC36F218DD7 /* UNIJsonNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIJsonNode.m; path = Unirest/HttpResponse/UNIJsonNode.m; sourceTree = "<group>"; };
+		F9FC0714A7EDD78E5CB077719F7A8859 /* EGOPhotoViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EGOPhotoViewer.xcconfig; sourceTree = "<group>"; };
+		FBB820250C8CFF05D7CED75111248556 /* UNIHTTPJsonResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UNIHTTPJsonResponse.m; path = Unirest/HttpResponse/UNIHTTPJsonResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025694188CB9A7D96CC58750018B4FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8FE823FB0DA31FA72637BBBA637026 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190AE2FDF8EB0D0B8E41F511E138D403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E926353DFCF951078498D40B0813479 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E2160A09A22951FB98D819AD6EEDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B78E3EBC9A6DB0530EBE7F2F40F261 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ACD3D586C3372C3782D534256B3E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3C40DD1A79BC0A7458F35540325CB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D06F545FBCE0F32D3FE5FEA9A4F4BBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69740F3E2329A3AE930CD87BDE3FDFF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF8011FE8518F40E7DE1882380BEDF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751B9E7467738C9C8D4C5EA5ADDE8F80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5309D157D2396AED1FD9FE0E3F33455B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE053D18E78F70244EE6416578532D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6461815FF2DEF6710B359FCE9E50BB7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E2D2EC9930932DE65017FFF4D25BC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751EBBA9E55D9244FE4D5A9438921AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D100453015A79CBC6003F9A39565456 /* Foundation.framework in Frameworks */,
+				33148D27F6FEE6421F7D8E8A6AD3DBD7 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A607525FCDE6B3BE12D1E9B42815D246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B2B9DEC3FB5798B0C55F642CED61BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125684E966B94E0C3FF5E274E0801E53 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				0E9B9F395C5F8DC7E0CAC6090B6AD69E /* TPKeyboardAvoidingCollectionView.h */,
+				CF521EE0C8A73C8691829AD92532305F /* TPKeyboardAvoidingCollectionView.m */,
+				E79AF518CC1B6647CE3FD87DA8BE48B7 /* TPKeyboardAvoidingScrollView.h */,
+				CB703B6DD053A25F1C4B66FF2EC17DB9 /* TPKeyboardAvoidingScrollView.m */,
+				43653248F8BBE1A3C8B9371FCCB46E1E /* TPKeyboardAvoidingTableView.h */,
+				25B63CE8E0D868F26C15D2281449BB2F /* TPKeyboardAvoidingTableView.m */,
+				81D450AB6304B3CBD08F57041F4CBC9F /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				6DB069B98B1E69388809204C9DCF5802 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				982F52068BABEC65CC27F45C554273A1 /* Support Files */,
+			);
+			name = TPKeyboardAvoiding;
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7141F310DB616A7B8460CB145EFEC3A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46CABA7196C7345E3257BAD5B23FA44A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B0BE9516DE4ECAB0B83A792EF20E101 /* egopv_error_placeholder.png */,
+				AAA2A4C3D16CCE2EA88F3BE2C255A3A3 /* egopv_error_placeholder@2x.png */,
+				56E250F43C31CE47DEA452AECAFEC119 /* egopv_fullscreen_button.png */,
+				8042327E252EDBFCC2347D3960286ACA /* egopv_fullscreen_button@2x.png */,
+				54A01D3AAD6F8C0F86232356C623AC83 /* egopv_left.png */,
+				62C3F70311F20331C37275D47A608D55 /* egopv_left@2x.png */,
+				57C0090F382FD0BE417A999E30CEF78E /* egopv_minimize_fullscreen_button.png */,
+				2D6F8F5AC37B1C4AC3B343CD9A325D2F /* egopv_photo_placeholder.png */,
+				D117B61F57E38D64CFB9261EDA4C6765 /* egopv_photo_placeholder@2x.png */,
+				49A3420FF7362D68E3D4CB3FAF68E5F4 /* egopv_right.png */,
+				74CA6553707DBADFF19364D5F14EC9B7 /* egopv_right@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		49A3850714A2F2EC24A0E4511BB453AE /* EGOImageLoading */ = {
+			isa = PBXGroup;
+			children = (
+				8355658CC4D51DCFA5B59D6AB47452DA /* EGOImageButton.h */,
+				06071C487D886B074DE03BC7F5F27D1D /* EGOImageButton.m */,
+				5DABCA62AB5F428A270AF7D806346CAB /* EGOImageLoadConnection.h */,
+				C8BB4FAC6D88CB3BF47CEBBEB3556BCF /* EGOImageLoadConnection.m */,
+				5D1FCB864EB20335DF1430B17C11DDA9 /* EGOImageLoader.h */,
+				83228513111C02F3DDFE4AAF1C9D2A73 /* EGOImageLoader.m */,
+				4E9E998AF6873220220705585734C8A8 /* EGOImageView.h */,
+				6E3AE3A3C41935CBEE90711287F22B82 /* EGOImageView.m */,
+				EC38A31CC059AD875991A5385CA9A6FF /* Support Files */,
+			);
+			name = EGOImageLoading;
+			path = EGOImageLoading;
+			sourceTree = "<group>";
+		};
+		4A3FB7746A08FE658CF30E592B97D1F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC0714A7EDD78E5CB077719F7A8859 /* EGOPhotoViewer.xcconfig */,
+				7B9123FC75186DD8DC648216C8FCBD5D /* EGOPhotoViewer-dummy.m */,
+				07C6474AD4A8211D02C078A4384450B3 /* EGOPhotoViewer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EGOPhotoViewer";
+			sourceTree = "<group>";
+		};
+		5F11BD747704EDA18E875CFC5B1F9BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61EFC4377EE226B3AD72D6B6135FD066 /* EGOCache */,
+				49A3850714A2F2EC24A0E4511BB453AE /* EGOImageLoading */,
+				9A88B8FC22BFE370F5900B8532A8B788 /* EGOPhotoViewer */,
+				BA14726C6A9BD358272A6BAAE00FB0A1 /* FMDB */,
+				8351A6581646321416C5D30CA2ED119B /* Reachability */,
+				125684E966B94E0C3FF5E274E0801E53 /* TPKeyboardAvoiding */,
+				E7EBDAF572394CD58C9EB5CA10DD573E /* Unirest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61EFC4377EE226B3AD72D6B6135FD066 /* EGOCache */ = {
+			isa = PBXGroup;
+			children = (
+				5D134EEB0B56B8DA5B7C2EDBC28416C3 /* EGOCache.h */,
+				115D96D8FF7842E404AA17FDBF7D0DA5 /* EGOCache.m */,
+				F712AA325A0BA41A3DCEC2C0D551E2F6 /* Support Files */,
+			);
+			name = EGOCache;
+			path = EGOCache;
+			sourceTree = "<group>";
+		};
+		782779A2D86CAA93007D0F55992C1330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59984A156E693B720C62D9CF26255CCE /* libEGOCache.a */,
+				2F3C560242803C222A2AFC2C29857D0B /* libEGOImageLoading.a */,
+				0D05198E0D7D94DE07FAC4701ACED923 /* libEGOPhotoViewer.a */,
+				F319B8CF51A7CB4E5951B27D05B6458C /* libFMDB.a */,
+				11C1C786B8B3CE477FA93E9F4F62A37E /* libPods-StoreViewer.a */,
+				504FF4169EAE899DEB5A605524E8DDB1 /* libPods-StoreViewerTests.a */,
+				AAD4BC7E944DBC0D7D03C02F2899845E /* libPods-StoreViewerUITests.a */,
+				A36BE4E9C49F1088388125CB97E55839 /* libReachability.a */,
+				4E6BCF54B14112E80461F9235D638BF8 /* libTPKeyboardAvoiding.a */,
+				315ED3F983E9EF904A19DC9749EDE55D /* libUnirest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5F11BD747704EDA18E875CFC5B1F9BE4 /* Pods */,
+				782779A2D86CAA93007D0F55992C1330 /* Products */,
+				AD0EE8E444D0C9341750FB01A56B5562 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8351A6581646321416C5D30CA2ED119B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				39B212B2830CC0E20DE04CB80612BC47 /* Reachability.h */,
+				D13944A28CEFDBB139A657E22824546C /* Reachability.m */,
+				DA370810259A8F3053D98B81E4796C6A /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		95E21FE5BC4FAE7917744C97A3672376 /* Pods-StoreViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90E877E784C9755CD63EDB34DA9BB11C /* Pods-StoreViewerUITests-acknowledgements.markdown */,
+				CF4EF7CA33F630F0A8C94C4652B30396 /* Pods-StoreViewerUITests-acknowledgements.plist */,
+				50051EA048E6AFD33F1CCD173CE1D937 /* Pods-StoreViewerUITests-dummy.m */,
+				AD047ADE844F390561385CDAB8C62380 /* Pods-StoreViewerUITests-frameworks.sh */,
+				C3526CD23BD62441DDE359F0262237AF /* Pods-StoreViewerUITests-resources.sh */,
+				7684B8252A6C8F4EA003FC6D5D70CC89 /* Pods-StoreViewerUITests.debug.xcconfig */,
+				F5B629055FC714B1F67AF367990A511A /* Pods-StoreViewerUITests.release.xcconfig */,
+			);
+			name = "Pods-StoreViewerUITests";
+			path = "Target Support Files/Pods-StoreViewerUITests";
+			sourceTree = "<group>";
+		};
+		982F52068BABEC65CC27F45C554273A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A97BDD130DD9A1FCF0881B631ED85BA /* TPKeyboardAvoiding.xcconfig */,
+				95652245BA7FBAFCAC1A9A50916C8F5F /* TPKeyboardAvoiding-dummy.m */,
+				C6AE8B56C9610F8B14B44AEDC0CEBB58 /* TPKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		9A88B8FC22BFE370F5900B8532A8B788 /* EGOPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				5829BD9868D27C79360B67B6956E78C4 /* EGOPhotoCaptionView.h */,
+				5D519F9AC3CC44F617E2736C4D2FC93B /* EGOPhotoCaptionView.m */,
+				49143F8764FE5C13D4F21BC754D94D8B /* EGOPhotoGlobal.h */,
+				BAB1DFF51067B0DD313EF88429785269 /* EGOPhotoImageView.h */,
+				41CD03A26BCD9CE124E09C9F09D9EAE7 /* EGOPhotoImageView.m */,
+				AD36E93E0631E8E7976B52D3CD7030BD /* EGOPhotoScrollView.h */,
+				F36B6FAA24D86CA3984DFDB0D05E9822 /* EGOPhotoScrollView.m */,
+				B5AB19F9E97BFD63DF8717D5E157AD16 /* EGOPhotoSource.h */,
+				A631DECDBF8EB65BB421DBCA58D01D8A /* EGOPhotoViewController.h */,
+				4DC6E8422EE526EA2DE0824D101FCFD9 /* EGOPhotoViewController.m */,
+				3879353009407DD01F2858D8E48AC242 /* EGOQuickPhoto.h */,
+				ABF31BC91CEE6DE131A1CE4CAA9B8263 /* EGOQuickPhoto.m */,
+				AEED11E08E34D1268A26B8A939B1EB34 /* EGOQuickPhotoSource.h */,
+				7306A917D0AB71CEC14FD75A42AEDF86 /* EGOQuickPhotoSource.m */,
+				46CABA7196C7345E3257BAD5B23FA44A /* Resources */,
+				4A3FB7746A08FE658CF30E592B97D1F6 /* Support Files */,
+			);
+			name = EGOPhotoViewer;
+			path = EGOPhotoViewer;
+			sourceTree = "<group>";
+		};
+		A571832A7E3D9C17DEF717E8831E15DA /* Pods-StoreViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A22959D6BE88E2ACD369C5DE7B31E93 /* Pods-StoreViewerTests-acknowledgements.markdown */,
+				D9535AF9D68ECB90FB27E9BDDCF1AF1B /* Pods-StoreViewerTests-acknowledgements.plist */,
+				A20E93613752D9D0F8E73C581E257C24 /* Pods-StoreViewerTests-dummy.m */,
+				9973F6BDDBDB3C3C2A98BA12DA434A0E /* Pods-StoreViewerTests-frameworks.sh */,
+				A2781E878BD2D4DEA01856A7CB5C0BA3 /* Pods-StoreViewerTests-resources.sh */,
+				2C16DD57CA57854B244395D2A5462A57 /* Pods-StoreViewerTests.debug.xcconfig */,
+				1EBFED81C06C9A86E60F65075C7CF6B6 /* Pods-StoreViewerTests.release.xcconfig */,
+			);
+			name = "Pods-StoreViewerTests";
+			path = "Target Support Files/Pods-StoreViewerTests";
+			sourceTree = "<group>";
+		};
+		AD0EE8E444D0C9341750FB01A56B5562 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB1E8ACC9F9D80E0E9C5629D96C2B48B /* Pods-StoreViewer */,
+				A571832A7E3D9C17DEF717E8831E15DA /* Pods-StoreViewerTests */,
+				95E21FE5BC4FAE7917744C97A3672376 /* Pods-StoreViewerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B7141F310DB616A7B8460CB145EFEC3A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */,
+				092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B88CDF6F2BD0C92C0A82A0A494E19AB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9370D60BECECDFC147A733A89028412F /* Unirest.xcconfig */,
+				F5BCFCA98CCC18B8908CCE428A26355B /* Unirest-dummy.m */,
+				6D262B9FA390B7F8F6A157E3B78A4106 /* Unirest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Unirest";
+			sourceTree = "<group>";
+		};
+		BA14726C6A9BD358272A6BAAE00FB0A1 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BAEF5709002E4B98F02468AE69967CB7 /* standard */,
+				BE99BC4808A791F35457B0895609642A /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		BAEF5709002E4B98F02468AE69967CB7 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9D41CBE1B9BC8E1D98F46D154F58A /* FMDatabase.h */,
+				1CD4689EE1F00E4ECCC1622D19C98273 /* FMDatabase.m */,
+				415C201835F6D100C999CFA391A5F59A /* FMDatabaseAdditions.h */,
+				37360C984455E13C493FC17D2D546571 /* FMDatabaseAdditions.m */,
+				6398F6F3A5469B94A2C5FF14FAA19FB2 /* FMDatabasePool.h */,
+				3640AD6678BF088B161EBB2174A359A6 /* FMDatabasePool.m */,
+				23500864C2F41033D6C43713F3974AB0 /* FMDatabaseQueue.h */,
+				B98D74F030A0512376CBCCB6B319AAEB /* FMDatabaseQueue.m */,
+				C91BC06CCEBA42B591F9D091159867B4 /* FMDB.h */,
+				64BD71189BA60FD5A9BE3141611D7D72 /* FMResultSet.h */,
+				E2DD889A30B206CFBD74DCBB80354C8E /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		BE99BC4808A791F35457B0895609642A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1923448348CB8F011EB7C0AF4915F39 /* FMDB.xcconfig */,
+				BD351D788B66521B2D7E13789A28166D /* FMDB-dummy.m */,
+				CFA9F99DB58BB1C93EC32CCC384E8CA8 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		DA370810259A8F3053D98B81E4796C6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB54C84D4D7C0F298DA76A2F22D25FE /* Reachability.xcconfig */,
+				05D8B025203456EDBDF85FFD4BA904EB /* Reachability-dummy.m */,
+				40B4DAA67843765AC0838F3579F80240 /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		E7EBDAF572394CD58C9EB5CA10DD573E /* Unirest */ = {
+			isa = PBXGroup;
+			children = (
+				13B01F8D50372EB66B6873E14BC9B852 /* Base64.h */,
+				2EF70867295A78726897F821458AF3D8 /* Base64.m */,
+				A40FBD59A5E749F222D92ED5AF28D4FF /* UNIBaseRequest.h */,
+				1245A9C12B7B605858B29DB971D25412 /* UNIBaseRequest.m */,
+				AEEBA1FBE82EFEED6C1D9A5A869D0D0A /* UNIBodyRequest.h */,
+				5116D23C323D965C350BDE661A236D0E /* UNIBodyRequest.m */,
+				D4C2E5E14861F0399B44F020B7755841 /* UNIHTTPBinaryResponse.h */,
+				AFCD842B12EAA1973AC376B689314A24 /* UNIHTTPBinaryResponse.m */,
+				5979ECCA609F3CE16C12EF083576DC52 /* UNIHTTPClientHelper.h */,
+				1E1346B3F22C052C6AFCDC40A8C384D0 /* UNIHTTPClientHelper.m */,
+				31DE0AF9D78076B9A45567CC7EBA12DA /* UNIHTTPJsonResponse.h */,
+				FBB820250C8CFF05D7CED75111248556 /* UNIHTTPJsonResponse.m */,
+				40C069B127BF2B192572377B22991B51 /* UNIHTTPRequest.h */,
+				C9E3481842777A7C9D1AB295A2C92402 /* UNIHTTPRequest.m */,
+				2A33A73A2FB977AF3ABA159B522B5EB8 /* UNIHTTPRequestWithBody.h */,
+				A91155E007E3DAFC32CA484CD6E5B85B /* UNIHTTPRequestWithBody.m */,
+				3605ADB09B6B0900213C0D0FE363C256 /* UNIHTTPResponse.h */,
+				879FD4834E544A8F0CF0C5B7FF9D3092 /* UNIHTTPResponse.m */,
+				04154111CF8B1D3CDE1642B8C1CD53AE /* UNIHTTPStringResponse.h */,
+				6F257F3E1129B431038BD2187142DF16 /* UNIHTTPStringResponse.m */,
+				31430171EF743E3007B87DAFADDC57E2 /* UNIJsonNode.h */,
+				F7008CFE512236D9FB415AC36F218DD7 /* UNIJsonNode.m */,
+				EBE17084060545F2C3CC31D7C7C9A67E /* UNIRest.h */,
+				570F1BBAB47C06CF5D0C963FF6B00F47 /* UNIRest.m */,
+				B0D24A4EFEED3E985DE51D327CF97591 /* UNISimpleRequest.h */,
+				8C17C1F7FC730BE470C64657E9AC8CE2 /* UNISimpleRequest.m */,
+				0D1B1BA64A5370CBEC8143BE45DC746B /* UNIUrlConnection.h */,
+				3F83A29397BAFB93542601ED8DDADA4C /* UNIUrlConnection.m */,
+				B88CDF6F2BD0C92C0A82A0A494E19AB7 /* Support Files */,
+			);
+			name = Unirest;
+			path = Unirest;
+			sourceTree = "<group>";
+		};
+		EC38A31CC059AD875991A5385CA9A6FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C581DEDB8F03871654FD4290854DDC32 /* EGOImageLoading.xcconfig */,
+				347897DA9250061D6E2DB37D0D489544 /* EGOImageLoading-dummy.m */,
+				41E48DC469B256769F0D625C53F6E777 /* EGOImageLoading-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EGOImageLoading";
+			sourceTree = "<group>";
+		};
+		F712AA325A0BA41A3DCEC2C0D551E2F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2086F82F876B726803FCDF6AE8397 /* EGOCache.xcconfig */,
+				081F63AA5FD198D837E292CDD85B2753 /* EGOCache-dummy.m */,
+				3862DDDF6EF1FAA2813F6B810C6AFA09 /* EGOCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EGOCache";
+			sourceTree = "<group>";
+		};
+		FB1E8ACC9F9D80E0E9C5629D96C2B48B /* Pods-StoreViewer */ = {
+			isa = PBXGroup;
+			children = (
+				4A3FE0DE2D63E07082C0106D43D4A117 /* Pods-StoreViewer-acknowledgements.markdown */,
+				7C22F47805A62DC58FB8E75E453EC30D /* Pods-StoreViewer-acknowledgements.plist */,
+				7FFD851A1535912AE84384089743CDEB /* Pods-StoreViewer-dummy.m */,
+				BEEC7F75EBCF71AFB8690E7C7DF5345D /* Pods-StoreViewer-frameworks.sh */,
+				41D1B41C147BC844A97DAEF9C1DCA5A0 /* Pods-StoreViewer-resources.sh */,
+				0B712C443523E39B44E357603F61F0E1 /* Pods-StoreViewer.debug.xcconfig */,
+				1296D149C7D67518CD0B3AE1896388EC /* Pods-StoreViewer.release.xcconfig */,
+			);
+			name = "Pods-StoreViewer";
+			path = "Target Support Files/Pods-StoreViewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1035818D269A9826F98A0B442118804C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76585C98D570ADDFAA39EA213CD41C9 /* EGOCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884C2B7E2A056D969F337DE8BF8FA23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898EE1B59145A57420676B61C8B91F3 /* Base64.h in Headers */,
+				1BFDFCB09F13BA7B53FCDDDC164C6FD5 /* UNIBaseRequest.h in Headers */,
+				FE5FF61564FDA821BB5EEB5BFE8EBC7B /* UNIBodyRequest.h in Headers */,
+				9C7614C1B43B851FBAAAA5848C563BB9 /* UNIHTTPBinaryResponse.h in Headers */,
+				46FC5D478242D0EEF5D992318696301C /* UNIHTTPClientHelper.h in Headers */,
+				36BD5A949C9BFE319B788DCE2E4EF9DB /* UNIHTTPJsonResponse.h in Headers */,
+				6CCBD067C70B0C243D5D0B682DFD43D6 /* UNIHTTPRequest.h in Headers */,
+				275E3698B790A72C16C4BD6FE1BE0DCA /* UNIHTTPRequestWithBody.h in Headers */,
+				CE63F10B4B082985DCB54A2C5ED2B123 /* UNIHTTPResponse.h in Headers */,
+				CC6D759A1852D9CAF606E16ADFA57C91 /* UNIHTTPStringResponse.h in Headers */,
+				2CD7E49D46333F00AD9139C2993DE5DE /* UNIJsonNode.h in Headers */,
+				FB3EFE4CCA2E9AD8215BD39551023455 /* UNIRest.h in Headers */,
+				0E6CF3C65CBC6941D7001F49CEDF76F4 /* UNISimpleRequest.h in Headers */,
+				2938E4F97CA5991620EE873A49FE021D /* UNIUrlConnection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F2EF754087606155DB759A0CDD28829 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5E1FF20792BB0CB45560F0FEA085C7 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				B514AAA79206A167CCDD8996DAE03640 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				21E86DCAFAFD80B0E1A645C011C48952 /* TPKeyboardAvoidingTableView.h in Headers */,
+				2CD18CC6D025C1928F4ECE0EC8A00DCC /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3089B71DFB6E3DD6504AF2306F7DF88D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0656804DBF3C4CB1A8DD8524FA2E0 /* EGOPhotoCaptionView.h in Headers */,
+				05714CF9D48A55FCE1EAC6F1229ACBB0 /* EGOPhotoGlobal.h in Headers */,
+				3CBE5237ACD94B3BF2C54ABEE5095F4E /* EGOPhotoImageView.h in Headers */,
+				BFCDE3382466F7B3FBDC8A9276050AA9 /* EGOPhotoScrollView.h in Headers */,
+				4071BA24182F62615D67465110121743 /* EGOPhotoSource.h in Headers */,
+				F69F37055578F1E8AA62B963867D2E93 /* EGOPhotoViewController.h in Headers */,
+				4A0B4474A48B9A2C8DAB2F255A89657F /* EGOQuickPhoto.h in Headers */,
+				82D506BECE75302A5D915946CC15CD44 /* EGOQuickPhotoSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5631BD0CE146575092FDF00C48BF91A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33084AD7FD963A0E0E43CF1C5AB60234 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93D3ABB603D66C647446B37AA29FE64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D852415DFD46E85C293E0DDE01868EA2 /* FMDatabase.h in Headers */,
+				F00CCFAB93A4F18419CD91217B1D5F66 /* FMDatabaseAdditions.h in Headers */,
+				2012864C735C3DD88ECE425F6C981F6B /* FMDatabasePool.h in Headers */,
+				99714143FA44A34F87D1F2AA6D254177 /* FMDatabaseQueue.h in Headers */,
+				889D48A9B81ADF617C1D4E4E9473E3A9 /* FMDB.h in Headers */,
+				398A5C11EFB816892FD5E18AD24F03D4 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7F10116CF702E8FFD922CB9CD4143C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A5D678A4740845FFB5BDA95DF11FDB /* EGOImageButton.h in Headers */,
+				2C7F7EB9B185A2225B300667C2C260F6 /* EGOImageLoadConnection.h in Headers */,
+				C88BD6637218C7C0940CC6CED5CF922F /* EGOImageLoader.h in Headers */,
+				CEE7592FDF6F78C4B25B0C068F9EE89C /* EGOImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D748A1E7B7DFC967C340F9954065967 /* EGOCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51710214D5317847022FF1A4C765B6E3 /* Build configuration list for PBXNativeTarget "EGOCache" */;
+			buildPhases = (
+				19B43478CAE1CFAEAFEB3D18FF0F6AB8 /* Sources */,
+				190AE2FDF8EB0D0B8E41F511E138D403 /* Frameworks */,
+				1035818D269A9826F98A0B442118804C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGOCache;
+			productName = EGOCache;
+			productReference = 59984A156E693B720C62D9CF26255CCE /* libEGOCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA066B3D32C553BF37E3322F9113F02 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				ADE36E87832B736E1FAF9E50036C1530 /* Sources */,
+				025694188CB9A7D96CC58750018B4FFC /* Frameworks */,
+				A93D3ABB603D66C647446B37AA29FE64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = F319B8CF51A7CB4E5951B27D05B6458C /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		959BAB8879E2483BC6449AF6CC43A026 /* Pods-StoreViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D032C717EE9F63985AC550F675A0AB2 /* Build configuration list for PBXNativeTarget "Pods-StoreViewer" */;
+			buildPhases = (
+				DC7F5FF11FA1AE7E818D6DB8A984D65E /* Sources */,
+				38E2160A09A22951FB98D819AD6EEDCA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE32DA1A9043F85C2D8D15BE2C622AA0 /* PBXTargetDependency */,
+				738FF6508F1D995EFA3F59681E845D2C /* PBXTargetDependency */,
+				8C51B648B9B6C21C77426225502F82E9 /* PBXTargetDependency */,
+				AC168112F3D414BD2073A8C20B6A5B0B /* PBXTargetDependency */,
+				43A9C78A3AF987FE494EFC12E308B8FC /* PBXTargetDependency */,
+				056366E8B72C0AAE578C93367FCD674C /* PBXTargetDependency */,
+				5F7867C1D25130292483BBC7A1B395F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-StoreViewer";
+			productName = "Pods-StoreViewer";
+			productReference = 11C1C786B8B3CE477FA93E9F4F62A37E /* libPods-StoreViewer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B7BBBA374B5F67D67B0C64C398016205 /* EGOImageLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D6100931FCBA7C08E5C4519060EDCB /* Build configuration list for PBXNativeTarget "EGOImageLoading" */;
+			buildPhases = (
+				F3720097F91E783B844F8EA4EAD4F6CA /* Sources */,
+				6461815FF2DEF6710B359FCE9E50BB7C /* Frameworks */,
+				AD7F10116CF702E8FFD922CB9CD4143C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEFEE4F571A44B4DDC49FA7A3980DF53 /* PBXTargetDependency */,
+			);
+			name = EGOImageLoading;
+			productName = EGOImageLoading;
+			productReference = 2F3C560242803C222A2AFC2C29857D0B /* libEGOImageLoading.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD3B3AD0E5C722635FEF5221F0231B23 /* EGOPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC648D0ACB0764381E659C525CF570B /* Build configuration list for PBXNativeTarget "EGOPhotoViewer" */;
+			buildPhases = (
+				1AEE6C28FD85993CDF086B1FFAE5F883 /* Sources */,
+				44ACD3D586C3372C3782D534256B3E77 /* Frameworks */,
+				3089B71DFB6E3DD6504AF2306F7DF88D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86BC7F4EF4827710B244568118BE5025 /* PBXTargetDependency */,
+				FEB8E9B886024216328F337FEC01F915 /* PBXTargetDependency */,
+			);
+			name = EGOPhotoViewer;
+			productName = EGOPhotoViewer;
+			productReference = 0D05198E0D7D94DE07FAC4701ACED923 /* libEGOPhotoViewer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5EACA3043847E0B70CA8784062D3A4F /* Pods-StoreViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD5F3F6D6398DD236A191BD12E168CE /* Build configuration list for PBXNativeTarget "Pods-StoreViewerUITests" */;
+			buildPhases = (
+				FB69285C8ACA9603BE1083F8D61B55F7 /* Sources */,
+				5309D157D2396AED1FD9FE0E3F33455B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StoreViewerUITests";
+			productName = "Pods-StoreViewerUITests";
+			productReference = AAD4BC7E944DBC0D7D03C02F2899845E /* libPods-StoreViewerUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD5EBE21111FE5963CF1224A0EEFD7DC /* Pods-StoreViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DFF378C001F20A00E6210F0F2FEEBE2 /* Build configuration list for PBXNativeTarget "Pods-StoreViewerTests" */;
+			buildPhases = (
+				B51C05E1070FC41E375EC0FA302CC10F /* Sources */,
+				A607525FCDE6B3BE12D1E9B42815D246 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-StoreViewerTests";
+			productName = "Pods-StoreViewerTests";
+			productReference = 504FF4169EAE899DEB5A605524E8DDB1 /* libPods-StoreViewerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D78796A317178E00ECF62E34F632490B /* Unirest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DFA1EB08DB98724468661DB73BD9B8 /* Build configuration list for PBXNativeTarget "Unirest" */;
+			buildPhases = (
+				4BDDB8590CF0336C1FEF0A3DE4FF75A3 /* Sources */,
+				4D06F545FBCE0F32D3FE5FEA9A4F4BBA /* Frameworks */,
+				1884C2B7E2A056D969F337DE8BF8FA23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unirest;
+			productName = Unirest;
+			productReference = 315ED3F983E9EF904A19DC9749EDE55D /* libUnirest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC9CA53A86EA26D916A2721F70DDFF44 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035195C059151497524F630B7E0C733D /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				79267BD3E31C662B7659BC10E9DB153F /* Sources */,
+				751EBBA9E55D9244FE4D5A9438921AFE /* Frameworks */,
+				5631BD0CE146575092FDF00C48BF91A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = A36BE4E9C49F1088388125CB97E55839 /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F2F124214F670293D24893E683178235 /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0308CAFCF0D18D8D0458BC1C85D5A694 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				BC3B3EE8331CDF11A967C7F3997A8F4A /* Sources */,
+				4EF8011FE8518F40E7DE1882380BEDF7 /* Frameworks */,
+				1F2EF754087606155DB759A0CDD28829 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 4E6BCF54B14112E80461F9235D638BF8 /* libTPKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 782779A2D86CAA93007D0F55992C1330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D748A1E7B7DFC967C340F9954065967 /* EGOCache */,
+				B7BBBA374B5F67D67B0C64C398016205 /* EGOImageLoading */,
+				BD3B3AD0E5C722635FEF5221F0231B23 /* EGOPhotoViewer */,
+				8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */,
+				959BAB8879E2483BC6449AF6CC43A026 /* Pods-StoreViewer */,
+				CD5EBE21111FE5963CF1224A0EEFD7DC /* Pods-StoreViewerTests */,
+				C5EACA3043847E0B70CA8784062D3A4F /* Pods-StoreViewerUITests */,
+				DC9CA53A86EA26D916A2721F70DDFF44 /* Reachability */,
+				F2F124214F670293D24893E683178235 /* TPKeyboardAvoiding */,
+				D78796A317178E00ECF62E34F632490B /* Unirest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B43478CAE1CFAEAFEB3D18FF0F6AB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B04FFA2220007B49A3B8E2BBBBC680F /* EGOCache-dummy.m in Sources */,
+				B0677D40BC45DD8C5D6116D7CD3F0164 /* EGOCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEE6C28FD85993CDF086B1FFAE5F883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4A48B07565EC1751D11FBF17C1611B /* EGOPhotoCaptionView.m in Sources */,
+				91A8DE4092E2BE4094AF6D3F207E5EE8 /* EGOPhotoImageView.m in Sources */,
+				A7FEF861BCAF3347604B49E9834869E0 /* EGOPhotoScrollView.m in Sources */,
+				C35AF65136C7E1BC1AA7729C0AC0F46E /* EGOPhotoViewController.m in Sources */,
+				422511B62248A4F66640B534F1B01D2E /* EGOPhotoViewer-dummy.m in Sources */,
+				76807DA28924E0B2643B51C95DEF0B68 /* EGOQuickPhoto.m in Sources */,
+				FABA23C09B1A9F3E569D717ADB2597A7 /* EGOQuickPhotoSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BDDB8590CF0336C1FEF0A3DE4FF75A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F254111FB6030295FDBF71CE55519A2 /* Base64.m in Sources */,
+				FBA69E1DC8F4261AFFBA217C51E839EA /* UNIBaseRequest.m in Sources */,
+				F1842CF30B2245614EBAFE77CE1F4923 /* UNIBodyRequest.m in Sources */,
+				B59D749355C2420C11ED27EC7B6B8701 /* UNIHTTPBinaryResponse.m in Sources */,
+				C0C50BB88B2091D0E38E3C26F56D1142 /* UNIHTTPClientHelper.m in Sources */,
+				32E4009D90AEB47C291273710D999678 /* UNIHTTPJsonResponse.m in Sources */,
+				387B782894F22D3F01939E34C157F3F8 /* UNIHTTPRequest.m in Sources */,
+				BF4C490A321DF18CC2A817489BCE0DDE /* UNIHTTPRequestWithBody.m in Sources */,
+				28CAC32463995BB443CA2BC7A1F0A3B2 /* UNIHTTPResponse.m in Sources */,
+				9DC43A5055A16946C2CEACD3BA23E8DA /* UNIHTTPStringResponse.m in Sources */,
+				355F8EEE5384D81577B48C657D58ED09 /* UNIJsonNode.m in Sources */,
+				8B047EA1C4C5199ED967BD0B9AEEFD63 /* Unirest-dummy.m in Sources */,
+				C4611156B8A3B15FB1473B3F63184674 /* UNIRest.m in Sources */,
+				DED2D0573D877799B5EF63D955FCFD81 /* UNISimpleRequest.m in Sources */,
+				933DB33C06BE1C62581761DFF15B9873 /* UNIUrlConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79267BD3E31C662B7659BC10E9DB153F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF9AAD0361C310D594674A2CCD15CC4 /* Reachability-dummy.m in Sources */,
+				176BD158ED301BD2B59D6BC8E2CE8FDE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE36E87832B736E1FAF9E50036C1530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6199817CB29DADBC9AB1D4C44E52F5BA /* FMDatabase.m in Sources */,
+				4DB541C1C41B1C597EC36CDAB5243D1A /* FMDatabaseAdditions.m in Sources */,
+				8021697A1557D425AC130472DA1317CC /* FMDatabasePool.m in Sources */,
+				98ABF277A45F1AB72A8D02D53FFE67BF /* FMDatabaseQueue.m in Sources */,
+				C40CFE1274D588CA1A9DF9394BF76EAE /* FMDB-dummy.m in Sources */,
+				4B3B2EABA01FE0065CA6693CEE33CA92 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51C05E1070FC41E375EC0FA302CC10F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC860393B0EC0422E829B6CFD4A8362 /* Pods-StoreViewerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3B3EE8331CDF11A967C7F3997A8F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8156235605C1C96E04D416BAAC8E8A1E /* TPKeyboardAvoiding-dummy.m in Sources */,
+				8CC8F1F0A0AB6B3E546ABA261949C4BF /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				308268E5CB3A166AFEDB84DBBC78F253 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3837FFA26EF4087DA45166F092EE3DD3 /* TPKeyboardAvoidingTableView.m in Sources */,
+				B15903525393EDC38C55D4E37D73A14D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7F5FF11FA1AE7E818D6DB8A984D65E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C02340B49CDE9FE15123C3EBE3E1186 /* Pods-StoreViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3720097F91E783B844F8EA4EAD4F6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA7B58599E5D6122291FDE26B2FCDF5 /* EGOImageButton.m in Sources */,
+				DE3F87D6C04696FB74039A47F63317E6 /* EGOImageLoadConnection.m in Sources */,
+				E8070F4A0E987443BC8E90E751DE85E5 /* EGOImageLoader.m in Sources */,
+				1EF69095214FE8C9248EAA38A0B08886 /* EGOImageLoading-dummy.m in Sources */,
+				FE06A99D8FC7215A164B17E98429003C /* EGOImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB69285C8ACA9603BE1083F8D61B55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D674B0E33BB78B304793A26BC2E7F60 /* Pods-StoreViewerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056366E8B72C0AAE578C93367FCD674C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = F2F124214F670293D24893E683178235 /* TPKeyboardAvoiding */;
+			targetProxy = 95E1037D386B96CEB0B7474BF2CB5033 /* PBXContainerItemProxy */;
+		};
+		43A9C78A3AF987FE494EFC12E308B8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = DC9CA53A86EA26D916A2721F70DDFF44 /* Reachability */;
+			targetProxy = 13CAE154EDFD522645679058BFAB96DB /* PBXContainerItemProxy */;
+		};
+		5F7867C1D25130292483BBC7A1B395F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Unirest;
+			target = D78796A317178E00ECF62E34F632490B /* Unirest */;
+			targetProxy = 3E4BFFBD80DBE3A3494FDE60A168A1DF /* PBXContainerItemProxy */;
+		};
+		738FF6508F1D995EFA3F59681E845D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOImageLoading;
+			target = B7BBBA374B5F67D67B0C64C398016205 /* EGOImageLoading */;
+			targetProxy = 9789F4B8BD87D1834A8C6162A5FA0A78 /* PBXContainerItemProxy */;
+		};
+		86BC7F4EF4827710B244568118BE5025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOCache;
+			target = 2D748A1E7B7DFC967C340F9954065967 /* EGOCache */;
+			targetProxy = 05E3D0482C62B30D6CDF11F778FC25DB /* PBXContainerItemProxy */;
+		};
+		8C51B648B9B6C21C77426225502F82E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOPhotoViewer;
+			target = BD3B3AD0E5C722635FEF5221F0231B23 /* EGOPhotoViewer */;
+			targetProxy = 30E40C16D818EA604FC243897014B944 /* PBXContainerItemProxy */;
+		};
+		AC168112F3D414BD2073A8C20B6A5B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */;
+			targetProxy = 066362F92A175064FE0B9F8644716E42 /* PBXContainerItemProxy */;
+		};
+		AE32DA1A9043F85C2D8D15BE2C622AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOCache;
+			target = 2D748A1E7B7DFC967C340F9954065967 /* EGOCache */;
+			targetProxy = C7650C1D32E6BA98004104B9049D62FD /* PBXContainerItemProxy */;
+		};
+		BEFEE4F571A44B4DDC49FA7A3980DF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOCache;
+			target = 2D748A1E7B7DFC967C340F9954065967 /* EGOCache */;
+			targetProxy = 9810A58CE9A723FA26F1B465A7F7AD05 /* PBXContainerItemProxy */;
+		};
+		FEB8E9B886024216328F337FEC01F915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EGOImageLoading;
+			target = B7BBBA374B5F67D67B0C64C398016205 /* EGOImageLoading */;
+			targetProxy = 66E762DCC9A4D0DE21527580E09220E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14DC5BAF9F2D73AE90C675175085A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1923448348CB8F011EB7C0AF4915F39 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2BF962241573CBB04E0CA7806F6A84AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB54C84D4D7C0F298DA76A2F22D25FE /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34E747340E4F5029011FDFE506B842DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A97BDD130DD9A1FCF0881B631ED85BA /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		384D9C8C68CD616EEEC15BDA307CB07C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB54C84D4D7C0F298DA76A2F22D25FE /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B906B3B8517A15C7A14AB0BF4BDDE0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9370D60BECECDFC147A733A89028412F /* Unirest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4874DC543B96271F4471A0FFB1D12DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B712C443523E39B44E357603F61F0E1 /* Pods-StoreViewer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		581C3ECB9590BAC6E4B719152F60207D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B629055FC714B1F67AF367990A511A /* Pods-StoreViewerUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		584BB5DCFC35E26D01B18C6307D3C636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C16DD57CA57854B244395D2A5462A57 /* Pods-StoreViewerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5AD58F8B16A058D394445D636BDDABCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C581DEDB8F03871654FD4290854DDC32 /* EGOImageLoading.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOImageLoading/EGOImageLoading-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E2F95937BD27829D299193A3165F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1923448348CB8F011EB7C0AF4915F39 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5EA4D1257CC02139250705614D1B890F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FC0714A7EDD78E5CB077719F7A8859 /* EGOPhotoViewer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOPhotoViewer/EGOPhotoViewer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E5AE77720C4C824EF1DCD174A50B92C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBFED81C06C9A86E60F65075C7CF6B6 /* Pods-StoreViewerTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9CB9C00563305756DAE0CE507B6CD6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FC0714A7EDD78E5CB077719F7A8859 /* EGOPhotoViewer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOPhotoViewer/EGOPhotoViewer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A05BC25890C485B82E48EB7073CE1F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB2086F82F876B726803FCDF6AE8397 /* EGOCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOCache/EGOCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC64E3F5FD18769AE0B63DFA144C490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9370D60BECECDFC147A733A89028412F /* Unirest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Unirest/Unirest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AEB6028A279E3FB600DF3AAB8FAE5718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1296D149C7D67518CD0B3AE1896388EC /* Pods-StoreViewer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B59A3B1F513901102D1CCC3912B49F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A97BDD130DD9A1FCF0881B631ED85BA /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA5E8BC5BE341C4B31D2CFE35D63BC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C581DEDB8F03871654FD4290854DDC32 /* EGOImageLoading.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOImageLoading/EGOImageLoading-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EEBB7E52438260591244713407FD8C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7684B8252A6C8F4EA003FC6D5D70CC89 /* Pods-StoreViewerUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F96F329FE5838CC3D1450F41B124FB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB2086F82F876B726803FCDF6AE8397 /* EGOCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EGOCache/EGOCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0308CAFCF0D18D8D0458BC1C85D5A694 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E747340E4F5029011FDFE506B842DC /* Debug */,
+				B59A3B1F513901102D1CCC3912B49F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035195C059151497524F630B7E0C733D /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				384D9C8C68CD616EEEC15BDA307CB07C /* Debug */,
+				2BF962241573CBB04E0CA7806F6A84AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA066B3D32C553BF37E3322F9113F02 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2F95937BD27829D299193A3165F929 /* Debug */,
+				14DC5BAF9F2D73AE90C675175085A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51710214D5317847022FF1A4C765B6E3 /* Build configuration list for PBXNativeTarget "EGOCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05BC25890C485B82E48EB7073CE1F27 /* Debug */,
+				F96F329FE5838CC3D1450F41B124FB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DFA1EB08DB98724468661DB73BD9B8 /* Build configuration list for PBXNativeTarget "Unirest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC64E3F5FD18769AE0B63DFA144C490D /* Debug */,
+				3B906B3B8517A15C7A14AB0BF4BDDE0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DFF378C001F20A00E6210F0F2FEEBE2 /* Build configuration list for PBXNativeTarget "Pods-StoreViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584BB5DCFC35E26D01B18C6307D3C636 /* Debug */,
+				8E5AE77720C4C824EF1DCD174A50B92C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D032C717EE9F63985AC550F675A0AB2 /* Build configuration list for PBXNativeTarget "Pods-StoreViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4874DC543B96271F4471A0FFB1D12DBA /* Debug */,
+				AEB6028A279E3FB600DF3AAB8FAE5718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC648D0ACB0764381E659C525CF570B /* Build configuration list for PBXNativeTarget "EGOPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB9C00563305756DAE0CE507B6CD6D2 /* Debug */,
+				5EA4D1257CC02139250705614D1B890F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD5F3F6D6398DD236A191BD12E168CE /* Build configuration list for PBXNativeTarget "Pods-StoreViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBB7E52438260591244713407FD8C15 /* Debug */,
+				581C3ECB9590BAC6E4B719152F60207D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D6100931FCBA7C08E5C4519060EDCB /* Build configuration list for PBXNativeTarget "EGOImageLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD58F8B16A058D394445D636BDDABCA /* Debug */,
+				EA5E8BC5BE341C4B31D2CFE35D63BC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

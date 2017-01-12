@@ -44,36 +44,16 @@
 		self.kind = kind_;
 	}
 
-
 	id averageUserRatingForCurrentVersion_ = [dic objectForKey:@"averageUserRatingForCurrentVersion"];
 	if([averageUserRatingForCurrentVersion_ isKindOfClass:[NSNumber class]])
 	{
 		self.averageUserRatingForCurrentVersion = averageUserRatingForCurrentVersion_;
 	}
 
-
-	id fileSizeBytes_ = [dic objectForKey:@"fileSizeBytes"];
-	if([fileSizeBytes_ isKindOfClass:[NSString class]])
-	{
-		self.fileSizeBytes = fileSizeBytes_;
-	}
-
-	id sellerUrl_ = [dic objectForKey:@"sellerUrl"];
-	if([sellerUrl_ isKindOfClass:[NSString class]])
-	{
-		self.sellerUrl = sellerUrl_;
-	}
-
 	id trackViewUrl_ = [dic objectForKey:@"trackViewUrl"];
 	if([trackViewUrl_ isKindOfClass:[NSString class]])
 	{
 		self.trackViewUrl = trackViewUrl_;
-	}
-
-	id wrapperType_ = [dic objectForKey:@"wrapperType"];
-	if([wrapperType_ isKindOfClass:[NSString class]])
-	{
-		self.wrapperType = wrapperType_;
 	}
 
 	id version_ = [dic objectForKey:@"version"];
@@ -86,12 +66,6 @@
 	if([description_ isKindOfClass:[NSString class]])
 	{
 		self.descriptionApp = description_;
-	}
-
-	id artistName_ = [dic objectForKey:@"artistName"];
-	if([artistName_ isKindOfClass:[NSString class]])
-	{
-		self.artistName = artistName_;
 	}
 
 	id trackId_ = [dic objectForKey:@"trackId"];
@@ -134,12 +108,6 @@
 	if([formattedPrice_ isKindOfClass:[NSString class]])
 	{
 		self.formattedPrice = formattedPrice_;
-	}
-
-	id minimumOsVersion_ = [dic objectForKey:@"minimumOsVersion"];
-	if([minimumOsVersion_ isKindOfClass:[NSString class]])
-	{
-		self.minimumOsVersion = minimumOsVersion_;
 	}
 }
 

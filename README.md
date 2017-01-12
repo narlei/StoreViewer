@@ -26,3 +26,7 @@ pod 'EGOPhotoViewer', '~> 0.0'
 # Internet
 pod 'Reachability', '~> 3.2'
 ````
+
+#### Database
+
+To data store this app uses Sqlite with my own Orm library. This library is an open project. Https://github.com/narlei/namdatabase

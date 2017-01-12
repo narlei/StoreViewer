@@ -16,6 +16,7 @@
 		9C10B7FA1E264F7F00E7BACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C10B7F81E264F7F00E7BACA /* LaunchScreen.storyboard */; };
 		9C10B8051E264F7F00E7BACA /* StoreViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C10B8041E264F7F00E7BACA /* StoreViewerTests.m */; };
 		9C10B8101E264F7F00E7BACA /* StoreViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C10B80F1E264F7F00E7BACA /* StoreViewerUITests.m */; };
+		9C4955471E26FE4400F7A27A /* SVSoftwareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C4955461E26FE4400F7A27A /* SVSoftwareTests.m */; };
 		9C7FC2E91E26804A00C528D1 /* SVSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC2E71E26804A00C528D1 /* SVSoftware.m */; };
 		9CBE2F381E268193001D6144 /* SVSyncData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE2F371E268193001D6144 /* SVSyncData.m */; };
 		9CBE2F421E2682F7001D6144 /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9CBE2F3A1E2682F7001D6144 /* database.sqlite */; };
@@ -65,6 +66,7 @@
 		9C10B80B1E264F7F00E7BACA /* StoreViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C10B80F1E264F7F00E7BACA /* StoreViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreViewerUITests.m; sourceTree = "<group>"; };
 		9C10B8111E264F7F00E7BACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4955461E26FE4400F7A27A /* SVSoftwareTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVSoftwareTests.m; path = ../../storeViewer/StoreViewerTests/SVSoftwareTests.m; sourceTree = "<group>"; };
 		9C7FC2E71E26804A00C528D1 /* SVSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSoftware.m; sourceTree = "<group>"; };
 		9C7FC2E81E26804A00C528D1 /* SVSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSoftware.h; sourceTree = "<group>"; };
 		9CBE2F361E268193001D6144 /* SVSyncData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSyncData.h; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				9C10B8041E264F7F00E7BACA /* StoreViewerTests.m */,
+				9C4955461E26FE4400F7A27A /* SVSoftwareTests.m */,
 				9C10B8061E264F7F00E7BACA /* Info.plist */,
 			);
 			path = StoreViewerTests;
@@ -234,9 +237,9 @@
 			isa = PBXGroup;
 			children = (
 				9CBE2F3A1E2682F7001D6144 /* database.sqlite */,
+				9CBE2F3D1E2682F7001D6144 /* NAMDatabaseClasses.nam */,
 				9CBE2F3B1E2682F7001D6144 /* NAMDatabase.h */,
 				9CBE2F3C1E2682F7001D6144 /* NAMDatabase.m */,
-				9CBE2F3D1E2682F7001D6144 /* NAMDatabaseClasses.nam */,
 				9CBE2F3E1E2682F7001D6144 /* NAMEncrypt.h */,
 				9CBE2F3F1E2682F7001D6144 /* NAMEncrypt.m */,
 				9CBE2F401E2682F7001D6144 /* NAMObjectModel.h */,
@@ -590,6 +593,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C10B8051E264F7F00E7BACA /* StoreViewerTests.m in Sources */,
+				9C4955471E26FE4400F7A27A /* SVSoftwareTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

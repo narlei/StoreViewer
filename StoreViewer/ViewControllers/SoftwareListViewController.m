@@ -70,7 +70,9 @@
 #pragma TableView Methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     SVSoftware *software = [self.arrayValues objectAtIndex:indexPath.row];
+    
     SoftwareDetailsViewController *viewController = [[UIStoryboard storyboardWithName:@"SoftwareDetails" bundle:nil] instantiateInitialViewController];
     viewController.software = software;
     [self.navigationController pushViewController:viewController animated:YES];
@@ -85,6 +87,7 @@
     cell = [tableView dequeueReusableCellWithIdentifier:@"cellSoftwareList"];
     SoftwareListCell *currentCell = (SoftwareListCell *) cell;
     currentCell.software = [self.arrayValues objectAtIndex:indexPath.row];
+   
     return cell;
 }
 
